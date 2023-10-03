@@ -1,9 +1,9 @@
 |End Point| Methods | Description | Access |
 |---|---|---|---|
 | {{url}}| - | Display a basic overview of the webpage and contains links to other pages| Everyone |
-|---|---|---|---|
+
 | {{url}}/account/signup | - | Handles the signup functionality client side | User who is not logged in |
-|---|---|---|---|
+
 | {{url}}/api/account/signup | POST | Handles the signup funtionality server side and adds the user to the database| API endpoint |
 |---|---|---|---|
 | {{url}}/account/login | - | Handle the login functionality client side | User who is not logged in |
