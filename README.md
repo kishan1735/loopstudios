@@ -1,5 +1,5 @@
 |End Point| Methods | Description | Access |
-------------------------------------------
+|--|--|--|--|
 | {{url}}| - | Display a basic overview of the webpage and contains links to other pages| Everyone |
 ----------------------------------------------------------------------------------------------------
 | {{url}}/account/signup | - | Handles the signup functionality client side | User who is not logged in |
