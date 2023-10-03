@@ -19,7 +19,7 @@
 | {[url}}/api/user/:id/wallet | GET | Gets the BITScoin balance,transaction history from Database | API endpoint |
 |---|---|---|---|
 | {{url}}/user/:id/chat | - | Implements the chat functionality | User who is logged In |
-|---|---|---|---|
+------------------------------------------------------------------------------------
 | {{url}}/api/user/:id/chat | GET, POST, PATCH, DELETE | Implements the chat functionality server side | User who is logged In |
 |---|---|---|---|
 | {{url}}/api/products | - | Displays all the products being auctioned | Everyone but purchasing is limited to logged in users |
