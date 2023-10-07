@@ -12,6 +12,8 @@
 | {[url}}/api/user/:id/wallet | GET | Gets the BITScoin balance,transaction history from Database |  |
 | {{url}}/user/:id/chat |  | Implements the chat functionality | User who is logged In |
 | {{url}}/api/user/:id/chat | GET, POST, PATCH, DELETE | Implements the chat functionality server side |  |
+| {{url}}/user/chat/:roomId |  | Chat room with random user | User who is logged In |
+| {{url}}/user/chat/:roomId | GET, POST, PATCH, DELETE  | Chat room with random user | |
 | {{url}}/products | | Displays all the products being auctioned | Everyone but bid and sell buttons is limited to logged in users |
 | {{url}}/api/products | GET | Gets products being sold from database |  |
 | {{url}}/products/sell/:id| | Functionality to put an item for auction and update data | User who is logged in |
